@@ -4,13 +4,13 @@
 /*BODY  http://www.w3schools.com/jquerymobile/tryit.asp?filename=tryjqmob_trans_flow*/
 /*--------------------------------------------------------------------------------*/
 body{
-	color: #E0E8F0;
+	color: #00001A;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15pt;
 	font-weight: 300 !important;
 	letter-spacing: -0.025em;
 	line-height: 1.75em;
-	background: #1B042F; /* #1C1D26*/
+	background: #232323;
 }
 	body.loading * {
 		-moz-animation: none !important;
@@ -68,7 +68,7 @@ body{
 		margin-bottom: 30px;
 	}
 	.color{
-		color: #2E2E2E; /*#1C1D26*/
+		color: #2E2E2E;
 	}
 	.red{
 		color: #BF2E25;
@@ -83,39 +83,42 @@ body{
 	}
 
 		#topContainer{
-			background-color: #1b042f; /*#1C1D26*/
+			background-color: #ffeecc;
 			width: 100%;
 			background-size: cover;
 		}
 		#midContainer{
-			background-image: url("images/purple wall.jpg");
+			/*background-image: url("images/blueBack2.jpg");*/
+			background-color: #ffeecc;
 			width: 100%;
 			background-size: cover;
-			color: white; 
+			/*color: white; */
 			position: relative;
 		}
 		#endContainer{
 			padding-top: 100px;
-			/*background-color: #27072C; #305050*/
+			background-color: #ffeecc;
 			background-size: cover;
 			width: 100%;
-			color: #E0E8F0;
+			color: #00001A;
 		}
 		#info{
+			color: #E0E8F0;
 			height: 96vh;
 		}
 			#info p{
 				color: #FFFFF0;
 			}
+
 		#email{
 			max-width: 100%;
 		}
 		#quote{
-			color: #FF4D4D;
+			color: #000080;
 			font-size: 1.05em;
 		}
 			#quote b{
-				color: #E66A65;
+				color: #000066;
 			}
 
 	/*PROJECTS*/
@@ -126,8 +129,9 @@ body{
 		white-space: nowrap;
 	}
 		.bar b{
-			color: #D0C0D0;
+			color: #00001A;
 		}
+
 	.section{
 		height: 320px;
 		overflow: auto;
@@ -136,26 +140,29 @@ body{
 		white-space: nowrap;
 	}
 	.imgSize{
-		max-height: 300px;
+		max-height: 320px;
 		width: auto;
 		max-width: 100%;
 		vertical-align: middle;
 	}
+	.filter{
+		max-width: 150px;
+	}
 	.title{
-		color: #3798e8;
+		color: #000066;
 		font-size: .8em;
 	}
 
 	.firstIn{
 		display: inline-block;
-		vertical-align:top;
+		vertical-align:middle;
 		height: 320px;
 		width: auto;
 	}
 
 	.secOnward{
 		display: inline-block;
-		vertical-align:top;
+		vertical-align:middle;
 		margin-left: 20px;
 		height: 320px;
 		width: auto;
@@ -166,7 +173,7 @@ body{
 	}
 	.right{
 		position: relative;
-		color: #3798e8;
+		color: #000066;
 		float: right;
 	}
 	.hide{
@@ -174,7 +181,7 @@ body{
 	}
 
 /*--------------------------------------------------------------------------------*/
-/*LINKS*/
+/*LINKS and Email Adress*/
 /*--------------------------------------------------------------------------------*/
 a {
 	-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -182,18 +189,18 @@ a {
 	-o-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	color: #E0E8F0;
+	color: #333333;
 	text-decoration: none;
 }
 
 	a:hover {
-		color: #E44C65 !important;
+		color: #008FB3 !important;
 		border-bottom-color: transparent;
 		text-decoration: none;
 	}
 
 	a:visited{
-		color: #E0E8F0;
+		color: #333333;
 		text-decoration: none;
 	}
 
@@ -234,8 +241,8 @@ hr
 	display: block;
 	border: 0;
 	height: 6px;
-	border-top: solid 4px rgba(128,128,128,0.2);
-	border-bottom: solid 4px rgba(128,128,128,0.2);
+	border-top: solid 4px #660000;
+	border-bottom: solid 4px #660000;
 }
 
 	hr:before,
@@ -245,7 +252,7 @@ hr
 		position: absolute;
 		display: block;
 		width: 1px;
-		background: rgba(128,128,128,0.2);
+		background: rgba(102, 0, 0, 0.4);
 	}
 
 	hr:before
@@ -344,14 +351,9 @@ ul{
 	}
 
 	ul.social li a:before {
-		background-color: #444;
-		background-image: url('images/bg.png'),   -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-		background-image: url('images/bg.png'),   -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-		background-image: url('images/bg.png'),   -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-		background-image: url('images/bg.png'),   -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
-		background-image: url('images/bg.png'),   linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.2));
+		background-color: #595959;
 		border-radius: 6px;
-		box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255,255,255,0.1);
+		box-shadow: inset 0px 0px 0px 1px #333333, inset 0px 2px 1px 0px rgba(255,255,255,0.1);
 		color: #2E2E2E !important;
 		display: block;
 		font-size: 26px;
@@ -405,7 +407,7 @@ ul{
 
 #banner {
 	background-attachment: fixed;
-	background-color: #1D0433; /* #272833*/
+	background-color: #8c8c8c; /* #272833*/
 	background-position: center center;
 	background-size: cover;
 	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -424,11 +426,11 @@ ul{
 	}
 
 	#banner:after {
-		background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-		background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-		background-image: -o-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-		background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-		background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		background-image: -moz-linear-gradient(top, rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.95)), url("images/overlay.png");;
+		background-image: -webkit-linear-gradient(top, rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.95)), url("images/overlay.png");;
+		background-image: -o-linear-gradient(top, rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.95)), url("images/overlay.png");;
+		background-image: -ms-linear-gradient(top, rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.95)), url("images/overlay.png");;
+		background-image: linear-gradient(top, rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.95)), url("images/overlay.png");;
 		content: '';
 		display: block;
 		height: 100%;
