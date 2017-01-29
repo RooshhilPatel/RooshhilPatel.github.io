@@ -83,13 +83,13 @@ body{
 	}
 
 		#topContainer{
-			background-color: #ffeecc;
+			background-color: #EFEFEF;
 			width: 100%;
 			background-size: cover;
 		}
 		#midContainer{
 			/*background-image: url("images/blueBack2.jpg");*/
-			background-color: #ffeecc;
+			background-color: #EFEFEF;/*#ffeecc;*/
 			width: 100%;
 			background-size: cover;
 			/*color: white; */
@@ -97,7 +97,7 @@ body{
 		}
 		#endContainer{
 			padding-top: 100px;
-			background-color: #ffeecc;
+			background-color: #EFEFEF;
 			background-size: cover;
 			width: 100%;
 			color: #00001A;
